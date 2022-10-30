@@ -1,0 +1,4 @@
+"scripts": {
+    "start": "ts-node index.ts",
+    "start:dev": "tsnd index.ts"
+  },
