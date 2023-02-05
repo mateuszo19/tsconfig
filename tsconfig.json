@@ -5,9 +5,12 @@
     "sourceMap": true,
     "target": "ES6",
     "downlevelIteration": true,
+    "module": "CommonJS",
     "lib": ["es6","dom.iterable"],
     "outDir": "dist",
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true
   }
 }
